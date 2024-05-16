@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Список справ</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+  <h1>Список справ</h1>
+  <form id="todoForm">
+    <input type="text" id="todoInput" placeholder="Введіть нову справу..." required>
+    <button type="submit">Додати</button>
+  </form>
+  <ul id="todoList"></ul>
+  <div id="counters">
+    <p>Загальна кількість справ: <span id="counterTotal">0</span></p>
+    <p>Кількість незроблених справ: <span id="counterUnchecked">0</span></p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
